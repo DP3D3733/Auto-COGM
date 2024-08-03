@@ -8,7 +8,6 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gov.br
 // @grant        none
 // ==/UserScript==
-alert('a');
 setInterval(function() {
     if(document.querySelector('mat-option')) {
         document.querySelectorAll('mat-option').forEach(function(item) {
